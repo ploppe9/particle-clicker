@@ -5,10 +5,10 @@
     "description": "A shared room for all your Master students. Used to be a server room.",
     "effect": "Master Students produce +2 data per second.",
     "icon": "fa-group",
-    "cost": 4e2,
+    "cost": 0e2,
     "targets": [{ "key": "workers-masterstudents", "property": "rate" }],
-    "requirements": [{ "key": "workers-masterstudents", "property": "hired", "threshold": 5 }],
-    "constant": 2
+    "requirements": [{ "key": "workers-masterstudents", "property": "hired", "threshold": 50 }],
+    "constant": 20
   },
   {
     "key": "upgrade-masterstudents2",
@@ -41,10 +41,10 @@
     "description": "Weekly counseling with a professional physicist.",
     "effect": "Master Students produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 4e5,
+    "cost": 1e5,
     "targets": [{ "key": "workers-masterstudents", "property": "rate" }],
     "requirements": [{ "key": "upgrade-masterstudents3", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 20
   },
   {
     "key": "upgrade-phdstudents1",
